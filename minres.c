@@ -5,6 +5,9 @@
 //I don't think that multi-D arrays will work quite right.
 //it might need to be arrays of structs which contain flags
 
+//another problem is that my resistor values are going to need to be floats
+//i'll update that later but right now i'm just trying to learn git
+
 void PrintHelp(void)
 {
   //print the correct usage
@@ -38,7 +41,7 @@ int Parallel(int* parallelres, int size)
     
   } 
   
-  reqparallel = (1/
+  reqparallel = (1/denominator);
   
   return reqparallel;
 }
